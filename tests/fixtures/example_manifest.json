@@ -1,0 +1,44 @@
+{
+  "input": {
+    "path": "inputs/source_notebook.ipynb",
+    "hash": "sha256:5b9cdb6f4f6f07f2a7b36ab5a80f07ba3e5f9dbad9f01fda0ad31f0f8d1184e9"
+  },
+  "notebook": {
+    "id": "nb-demo-001",
+    "url": "https://example.org/notebooks/nb-demo-001"
+  },
+  "audio_assets": [
+    {
+      "id": "intro-voiceover",
+      "path": "out/job-demo/audio/intro-voiceover.mp3",
+      "duration_seconds": 4.3
+    },
+    {
+      "id": "section-1",
+      "path": "out/job-demo/audio/section-1.mp3",
+      "duration_seconds": 15.9
+    }
+  ],
+  "video": {
+    "path": "out/job-demo/video/final.mp4",
+    "duration_seconds": 74.2
+  },
+  "infographic_assets": [
+    {
+      "id": "overview-chart",
+      "path": "out/job-demo/infographics/overview-chart.png",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "timing": {
+    "started_at": "2026-01-10T09:00:00Z",
+    "ended_at": "2026-01-10T09:01:14Z",
+    "total_duration_seconds": 74.2
+  },
+  "diagnostics": {
+    "log_path": "out/job-demo/logs/run.log",
+    "failure_png_path": "out/job-demo/debug/failure.png",
+    "failure_html_path": "out/job-demo/debug/page.html"
+  }
+}
